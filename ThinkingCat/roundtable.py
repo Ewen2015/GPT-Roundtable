@@ -9,7 +9,7 @@ license:    Apache License 2.0
 
 def get_prompt(topic, person1, person2, person3):
     prompt = f"\
-    写一个对话录，以“人名：对话内容”的形式。\
+    写一个对话录，以“人名：对话内容”的形式。人名要加粗，Markdown格式。\
     分别用{person1}、{person2}、{person3}的口吻，就以下主题发表看法：{topic}。\
     发言者的讨论要契合自己的哲学思想，观点和口吻要有自己的特点。\
     每个人讨论要尽可能深刻，有启发，发言要承接前一个人的发言，又有自己的思考，不能重复前面人的观点。\
